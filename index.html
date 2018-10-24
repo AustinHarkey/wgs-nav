@@ -1,0 +1,742 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Nav + Mobile</title>
+    <link rel="stylesheet" href="demo/style.css">
+    <link rel="stylesheet" href="dist/styles/jquery-simple-mobilemenu.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet"> 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="dist/jquery-simple-mobilemenu.min.js"></script>
+
+</head>
+    
+<body>
+    <header>
+        <div class="topBar">
+            <div class="topBar__promos">
+                <p class="topBar__promo">Free shipping on all orders over $5,000</p>
+            </div>
+      
+            <ul class="topBar__links">
+                <li class="topBar__li"><a class="topBar__link" href="#">Customer Service</a></li>
+                <li class="topBar__li"><a class="topBar__link" href="#">Gift Cards</a></li>
+                <li class="topBar__li"><a class="topBar__link" href="#">Store Locator</a></li>
+                <li class="topBar__li"><a class="topBar__link" href="#">Login / Sign Up</a></li>
+            </ul>
+        </div>
+
+    <div class="logo-port">
+        <img src="images/wwgs-logo.png">
+    </div>
+
+<div class="nav">
+    <ul class="nav__cats">
+        <li class="nav__li nav__clubs"><a class="nav__cat" href="#">Clubs</a>
+            <div id="clubs" class="subMenu">
+                <div class="subMenu__wrapper">
+
+                <div class="subMenu__column">
+                    <ul class="subMenu__icons">
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/driver-icon.png"><h3 class="subMenu__thumbTitle">Drivers</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/fairway-icon.png"><h3 class="subMenu__thumbTitle">Fairways</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/hybrid-icon.png"><h3 class="subMenu__thumbTitle">Hybrids</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/iron-icon.png"><h3 class="subMenu__thumbTitle">Irons</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/wedge-icon.png"><h3 class="subMenu__thumbTitle">Wedges</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/putter-icon.png"><h3 class="subMenu__thumbTitle">Putters</h3>
+                            </a>
+                        </li>
+                      <!-- <a class="subMenu__title" href="#">Shop All Clubs</a> -->
+                    </ul>
+
+                    <div class="subMenu__textList">
+                        <ul class="subMenu__listOne">
+                           
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Drivers</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Fairways</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Hybrids</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Irons</a>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subItem"><a class="subMenu__subLink" href="#">Iron Sets</a></li>
+                                    <li class="subMenu__subItem"><a class="subMenu__subLink" href="#">Individual</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="subMenu__listOne">
+                            <!-- <li class="subMenu__item subMenu__item--title"><span class="subMenu__shopWord">Shop</span> Club type</li> -->
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Wedges</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Putters</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Package Sets</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Club Repair</a>
+                                <ul class="subMenu__subList">
+                                        <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Grips</a></li>
+                                        <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Grip Kits & Supplies</a></li>
+                                        <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Supplies & Tools</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="subMenu__listOne">
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Women's Clubs</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Juniors' Clubs</a></li>
+                            <!-- <li class="subMenu__item subMenu__item--title"><span class="subMenu__shopWord">Shop</span> Club Misc / etc</li> -->
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Left Hand</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Demo Clubs</a></li>
+                            
+                        </ul>
+
+                        <ul class="subMenu__listOne">
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Club Trade-In</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Gift Cards</a></li>
+                            <li class="subMenu__item subMenu__item--sale"><a class="subMenu__listLink subMenu__listLink--sale" href="#">Sale & Clearance</a></li>
+                            <li class="subMenu__item subMenu__item--shopAll"><a class="subMenu__listLink" href="#">Shop All</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="subMenu__column">
+                    <img class="subMenu__banner" src="https://www.worldwidegolfshops.com/Assets/images/navpromo/callaway-rogue3.jpg">
+                </div>
+
+                </div>
+                <div class="subBanner">
+                    <h3 class="subBanner__shipping">free shipping on all orders over $99*</h3>
+                    <a class="subBanner__details" href="#">See Details</a>
+                </div>
+            </div>
+        </li>
+
+        <li class="nav__li nav__shoes"><a class="nav__cat" href="#">Shoes</a>
+            <div id="shoes" class="subMenu">
+                <div class="subMenu__wrapper">
+                <div class="subMenu__column">
+                    <ul class="subMenu__icons">
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/mens-shoe-icon.png">
+                                <h3 class="subMenu__thumbTitle">Men's</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/womens-shoe-icon.png">
+                                <h3 class="subMenu__thumbTitle">Women's</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/juniors-shoe-icon.png">
+                                <h3 class="subMenu__thumbTitle">Juniors'</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/mens-shoe-icon.png"><h3 class="subMenu__thumbTitle">Spiked</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/womens-shoe-icon.png"><h3 class="subMenu__thumbTitle">Spikeless</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/juniors-shoe-icon.png"><h3 class="subMenu__thumbTitle">Off Course</h3>
+                            </a>
+                        </li>
+                        
+                    </ul>
+
+                    <div class="subMenu__textList">
+                       <ul class="subMenu__listOne">
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Men's</a></li>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Spiked</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Spikeless / Hybrid</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Off Course</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="subMenu__listOne">
+                            <!-- <li class="subMenu__item subMenu__item--title"><span class="subMenu__shopWord">Shop</span> Club type</li> -->
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Women's</a></li>
+                           
+                                <ul class="subMenu__subList">
+                                        <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Spiked</a></li>
+                                        <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Spikeless / Hybrid</a></li>
+                                        <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Off Course</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                        <ul class="subMenu__listOne">
+                            <!-- <li class="subMenu__item subMenu__item--title"><span class="subMenu__shopWord">Shop</span> Club type</li> -->
+                            
+
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Accessories</a></li>
+                           
+                                <ul class="subMenu__subList">
+                                        <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Spikes</a></li>
+                                        <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Laces</a></li>
+                                        <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Shoe Bags</a></li>
+                                        <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Shoe Care</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                       
+
+                        <ul class="subMenu__listOne subMenu__listOne--last">
+                            <!-- <li class="subMenu__item subMenu__item--title"><span class="subMenu__shopWord">Shop</span> Club Misc / etc</li> -->
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Socks</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Gift Cards</a></li>
+                            <li class="subMenu__item subMenu__item--sale"><a class="subMenu__listLink subMenu__listLink--sale" href="#">Sale & Clearance</a></li>
+                            <li class="subMenu__item subMenu__item--shopAll"><a class="subMenu__listLink" href="#">Shop All</a></li>
+                        </ul>
+                    </div>
+
+                   
+                </div>
+
+                 <div class="subMenu__column">
+                    <img class="subMenu__banner" src="https://www.worldwidegolfshops.com/Assets/images/navpromo/footjoy-tour-s.jpg">
+                </div>
+
+            </div>
+
+
+                <div class="subBanner">
+                    <h3 class="subBanner__shipping">free shipping on all orders over $99*</h3>
+                    <a class="subBanner__details" href="#">See Details</a>
+                </div>
+
+            </div>
+        </li>
+
+        <li class="nav__li nav__apparel"><a class="nav__cat" href="#">Apparel</a>
+            <div id="apparel" class="subMenu">
+                <div class="subMenu__wrapper">
+                <div class="subMenu__column">
+                    <ul class="subMenu__icons">
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/mens-apparel-icon.png"><h3 class="subMenu__thumbTitle">Men's</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/womens-apparel-icon.png"><h3 class="subMenu__thumbTitle">Women's</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/mens-apparel-icon.png"><h3 class="subMenu__thumbTitle">Juniors'</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/womens-apparel-icon.png"><h3 class="subMenu__thumbTitle">Accessories</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/glove-icon.png"><h3 class="subMenu__thumbTitle">Gloves</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/womens-apparel-icon.png"><h3 class="subMenu__thumbTitle">Putters</h3>
+                            </a>
+                        </li>
+                        <!-- <a class="subMenu__title" href="#">Shop All Clubs</a> -->
+                    </ul>
+
+                    <div class="subMenu__textList">
+                        <ul class="subMenu__listOne">
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Men's</a></li>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Tops</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Bottoms</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">OuterWear</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="subMenu__listOne">
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Women's</a></li>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Tops</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Bottoms</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Outerwear</a></li>
+                                </ul>
+                            </li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Juniors'</a></li>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Tops</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Bottoms</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="subMenu__listOne">
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Accessories</a></li>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Headwear</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Sunglasses</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Socks</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Belts</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="subMenu__listOne">
+                            <!-- <li class="subMenu__item subMenu__item--title"><span class="subMenu__shopWord">Shop</span> Club Misc / etc</li> -->
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Gloves</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Sun Protection</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Gift Cards</a></li>
+                            <li class="subMenu__item subMenu__item--sale"><a class="subMenu__listLink subMenu__listLink--sale" href="#">Sale & Clearance</a></li>
+                            <li class="subMenu__item subMenu__item--shopAll"><a class="subMenu__listLink" href="#">Shop All</a></li>
+                        </ul>
+                    </div>
+
+                    </div>
+                <div class="subMenu__column">
+                    <img class="subMenu__banner" src="https://www.worldwidegolfshops.com/Assets/images/navpromo/nike-apparel2.jpg">
+                </div>
+
+                </div>
+                <div class="subBanner">
+                    <h3 class="subBanner__shipping">free shipping on all orders over $99*</h3>
+                    <a class="subBanner__details" href="#">See Details</a>
+                </div>
+            </div>
+        </li>
+        <li class="nav__li nav__gpsTech"><a class="nav__cat" href="#">GPS & Tech</a>
+            <div id="gpsTech" class="subMenu">
+                <div class="subMenu__wrapper">
+                <div class="subMenu__column">
+                    <ul class="subMenu__icons">
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/tech-rangefinders.png"><h3 class="subMenu__thumbTitle">Rangefinders</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/tech-watch.png"><h3 class="subMenu__thumbTitle">GPS Watches</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/tech-gps.png"><h3 class="subMenu__thumbTitle">Handheld GPS</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/tech-accessories.png"><h3 class="subMenu__thumbTitle">Accessories</h3>
+                            </a>
+                        </li>
+                       
+                        <!-- <a class="subMenu__title" href="#">Shop All Clubs</a> -->
+                    </ul>
+
+                    
+
+                    <div class="subMenu__textList">
+                        <ul class="subMenu__listOne">
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Rangefinders & GPS</a></li>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Rangefinders</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">GPS Watches</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">GPS Handheld</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Accessories</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="subMenu__listOne">
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Other Technology</a></li>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Trackers & Analyzers</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Speakers</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Cameras</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Accessories</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+
+                         <ul style="visibility: hidden;" class="subMenu__listOne">
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Other Technology</a></li>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Trackers & Analyzers</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Speakers</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Cameras</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Accessories</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+
+                        <ul class="subMenu__listOne">
+                            <!-- <li class="subMenu__item subMenu__item--title"><span class="subMenu__shopWord">Shop</span> Club Misc / etc</li> -->
+                           
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Gift Cards</a></li>
+                            <li class="subMenu__item subMenu__item--sale"><a class="subMenu__listLink subMenu__listLink--sale" href="#">Sale & Clearance</a></li>
+                            <li class="subMenu__item subMenu__item--shopAll"><a class="subMenu__listLink" href="#">Shop All</a></li>
+                        </ul>
+                    </div>
+
+                    </div>
+                <div class="subMenu__column">
+                    <img class="subMenu__banner" src="https://www.worldwidegolfshops.com/Assets/images/navpromo/flyout-tech-bushnell-hybrid.jpg">
+                </div>
+
+                </div>
+                <div class="subBanner">
+                    <h3 class="subBanner__shipping">free shipping on all orders over $99*</h3>
+                    <a class="subBanner__details" href="#">See Details</a>
+                </div>
+            </div>
+
+        </li>
+        <li class="nav__li nav__balls"><a class="nav__cat" href="#">Balls</a>
+            <div id="balls" class="subMenu">
+                <div class="subMenu__wrapper">
+                <div class="subMenu__column">
+                    <ul class="subMenu__icons">
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/balls-titleist.png"><h3 class="subMenu__thumbTitle">Premium</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/balls-callaway.png"><h3 class="subMenu__thumbTitle">Custom</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/balls-taylormade.png"><h3 class="subMenu__thumbTitle">Practice</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/balls-srixon.png"><h3 class="subMenu__thumbTitle">High Visibility</h3>
+                            </a>
+                        </li>
+                        <li class="subMenu__icon">
+                            <a class="subMenu__link" href="#">
+                                <img class="subMenu__thumb" src="images/balls-bridgestone.png"><h3 class="subMenu__thumbTitle">Women's</h3>
+                            </a>
+                        </li>
+                       
+                        <!-- <a class="subMenu__title" href="#">Shop All Clubs</a> -->
+                    </ul>
+
+                    <div class="subMenu__textList">
+                        <ul class="subMenu__listOne">
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Premium</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Custom</a></li>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Personalized</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Play Number</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Logo</a></li>
+                                </ul>
+                            </li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Practice</a></li>
+                        </ul>
+
+                        <ul class="subMenu__listOne">
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">High Visibility</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Women's</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Licensed Team</a></li>
+                            
+                               
+                        </ul>
+
+                        <ul style="visibility: hidden;" class="subMenu__listOne">
+                            
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Gift Cards</a></li>
+                            <li class="subMenu__item subMenu__item--sale"><a class="subMenu__listLink subMenu__listLink--sale" href="#">Sale & Clearance</a></li>
+                            <li class="subMenu__item subMenu__item--shopAll"><a class="subMenu__listLink" href="#">Shop All</a></li>
+                               
+                        </ul>
+
+                        <ul class="subMenu__listOne">
+                            
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Gift Cards</a></li>
+                            <li class="subMenu__item subMenu__item--sale"><a class="subMenu__listLink subMenu__listLink--sale" href="#">Sale & Clearance</a></li>
+                            <li class="subMenu__item subMenu__item--shopAll"><a class="subMenu__listLink" href="#">Shop All</a></li>
+                               
+                        </ul>
+
+                        
+                       
+                    </div>
+
+                  </div>
+                <div class="subMenu__column">
+                    <img class="subMenu__banner" src="https://www.worldwidegolfshops.com/Assets/images/navpromo/titleist-prov2.jpg">
+                </div>
+                    
+                </div>
+                <div class="subBanner">
+                    <h3 class="subBanner__shipping">free shipping on all orders over $99*</h3>
+                    <a class="subBanner__details" href="#">See Details</a>
+                </div>
+            </div>
+        </li>
+        <li class="nav__li"><a class="nav__cat" href="#">Bags & Carts</a></li>
+        <li class="nav__li nav__accessories"><a class="nav__cat" href="#">Accessories</a>
+            <div id="shoes" class="subMenu">
+
+                <div class="subMenu__wrapper">
+                <div class="subMenu__column">
+
+                    <div class="subMenu__textList">
+                       
+                        
+                        <ul class="subMenu__listOne">
+                             <li class="subMenu__item"><a class="subMenu__listLink" href="#">On-Course</a></li>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Cleaning & Repair</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Ball Retrievers</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Tees</a></li>
+
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Headcovers</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Towels</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Umbrellas</a></li>
+
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Eyewear</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Therapeutic / Wellness</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Ball Markers / Divot Tools</a></li>
+
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Grips</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Coolers</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Other / Misc</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+
+                        <ul class="subMenu__listOne">
+                             <li class="subMenu__item"><a class="subMenu__listLink" href="#">Gloves</a></li>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Men's</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Women's</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Juniors</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Weather Gloves</a></li>
+                                   
+                                </ul>
+                            </li>
+
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Training Aids</a></li>
+                                <ul class="subMenu__subList">
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Full Swing & Distance</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Short Game</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Putting</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Home Practice</a></li>
+
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Fitness</a></li>
+                                    <li class="subMenu__subListItem"><a class="subMenu__subLink" href="#">Practice Balls</a></li>
+                                   
+                                </ul>
+                            </li>
+                        </ul>
+                       
+
+                        <ul class="subMenu__listOne">
+                            
+
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Gifts, Novelty</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Books & DVDs</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Licensed Team Gear</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Sun Protections</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Travel</a></li>
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Shoes Accessories</a></li>
+                        </ul>
+
+                        
+
+                        <ul class="subMenu__listOne subMenu__listOne--last">
+                            <!-- <li class="subMenu__item subMenu__item--title"><span class="subMenu__shopWord">Shop</span> Club Misc / etc</li> -->
+                            
+                            <li class="subMenu__item"><a class="subMenu__listLink" href="#">Gift Cards</a></li>
+                            <li class="subMenu__item subMenu__item--sale"><a class="subMenu__listLink subMenu__listLink--sale" href="#">Sale & Clearance</a></li>
+                            <li class="subMenu__item subMenu__item--shopAll"><a class="subMenu__listLink" href="#">Shop All</a></li>
+                        </ul>
+                    </div>
+
+
+                    </div>
+                <div class="subMenu__column">
+                    <img class="subMenu__banner" src="https://www.worldwidegolfshops.com/Assets/images/navpromo/footjoy-glove.jpg">
+                </div>
+
+                   
+                </div>
+
+                <div class="subBanner">
+                    <h3 class="subBanner__shipping">free shipping on all orders over $99*</h3>
+                    <a class="subBanner__details" href="#">See Details</a>
+                </div>
+            </div>
+        </li>
+        <li class="nav__li"><a class="nav__cat" href="#">Specialty</a></li>
+        <li class="nav__li"><a class="nav__cat" href="#">Sale</a></li>
+        <li class="nav__li"><a class="nav__cat" href="#">Brands</a></li>
+    </ul>
+</div>
+
+</header>
+
+<!-- MOBILE MENU | START -->
+<ul class="mobile_menu">
+    <li class="home-header"><a style="color: #fff;" href="#">Home</a></li>
+    <li>
+        <a href="#">Clubs</a>
+        <ul class="submenu">
+            <li><a href="#">Drivers</a></li>
+            <li><a href="#">Fairways</a></li>
+            <li><a href="#">Hybrids</a></li>
+
+            <li>
+                <a href="#">Irons</a>
+                <ul class="submenu">
+                    <li><a href="#">Irons Sets</a></li>
+                    <li><a href="#">Individual Irons</a> </li>
+                </ul>
+            </li>
+
+            <li><a href="#">Wedges</a></li>
+            <li><a href="#">Putters</a></li>
+            <li><a href="#">Package Sets</a></li>
+
+            <li>
+                <a href="#">Club Repair</a>
+                <ul class="submenu">
+                    <li> <a href="#">Grips</a> </li>
+                    <li> <a href="#">Grip Kits & Supplies</a> </li>
+                    <li> <a href="#">Supplies & Tools</a> </li>
+                </ul>
+            </li>
+
+            <li><a href="#">Women's Clubs</a></li>
+            <li><a href="#">Juniors' Clubs</a></li>
+            <li><a href="#">Left Hand</a></li>
+            <li><a href="#">Demo</a></li>
+            <li><a href="#">Club Trade-In</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li class="sale-mobile-menu"><a href="#">Sale</a></li>
+            <li class="shop-all-mobile-menu"><a href="#">Shop All</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Shoes</a>
+        <ul class="submenu">
+            <li>
+                <a href="#">Men's</a>
+                <ul class="submenu">
+                    <li><a href="">Spiked</a></li>
+                    <li><a href="">Spikeless & Hybrid</a></li>
+                    <li><a href="">Off Course</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Women's</a>
+                <ul class="submenu">
+                    <li><a href="">Spiked</a></li>
+                    <li><a href="">Spikeless & Hybrid</a></li>
+                    <li><a href="">Off Course</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Juniors'</a>
+                <ul class="submenu">
+                    <li><a href="">Spiked</a></li>
+                    <li><a href="">Spikeless & Hybrid</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Accessories</a>
+                <ul class="submenu">
+                    <li><a href="">Spikes</a></li>
+                    <li><a href="">Laces</a></li>
+                    <li><a href="">Shoe Bags</a></li>
+                    <li><a href="">Shoe Core</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Socks</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li class="sale-mobile-menu"><a href="#">Sale</a></li>
+            <li class="shop-all-mobile-menu"><a href="#">Shop All</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Category 3</a></li>
+    <li><a href="#">Category 4</a></li>
+    <li><a href="#">Category 5</a></li>
+</ul>
+
+<script>
+
+    $(document).ready(function() {
+        $(".mobile_menu").slideMobileMenu({
+            onMenuLoad: function(menu) {
+                console.log(menu)
+                console.log("menu loaded")
+            },
+            onMenuToggle: function(menu, opened) {
+                console.log(opened)
+            }
+        });
+    })
+
+</script>
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+</body>
+</html>
